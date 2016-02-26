@@ -1,0 +1,12 @@
+body, html {
+	margin-left: 0px;
+	margin-top: 0px;
+	font-family: sans-serif;
+}
+.splash-container {
+	background-image: url("../img/bg.jpg");
+	background-size: cover;
+}
+.pure-menu-horizontal {
+    white-space: normal;
+}

@@ -1,0 +1,6 @@
+[submodule "static/libs/pure"]
+	path = static/libs/pure
+	url = https://github.com/dscso/pure.git
+[submodule "static/libs/font-awesome"]
+	path = static/libs/font-awesome
+	url = https://github.com/FortAwesome/Font-Awesome.git

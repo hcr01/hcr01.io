@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>hcr01</title>
+	<link rel="stylesheet" href="static/libs/pure/pure-min.css">
+	<link rel="stylesheet" href="static/libs/pure/grids-responsive-min.css">
+	<link rel="stylesheet" href="static/libs/font-awesome/css/font-awesome.min.css">
+	<link rel="stylesheet" href="static/css/marketing.css">
+	<link rel="stylesheet" href="static/css/app.css">
+</head>
+<body>
+	<div class="header">
+		<div class="home-menu pure-menu pure-menu-horizontal pure-menu-fixed">
+			<a class="pure-menu-heading" style="position: absolute;" href="">Hybrid Charge Controller</a>
+			<ul class="pure-menu-list">
+				<li class="pure-menu-item"><a href="index.html" class="pure-menu-link">Home</a></li>
+				<li class="pure-menu-item pure-menu-selected"><a href="doc.html" class="pure-menu-link">Documentation</a></li>
+				<li class="pure-menu-item"><a href="contrib.html" class="pure-menu-link">Contribute</a></li>
+				<li class="pure-menu-item"><a href="about.html" class="pure-menu-link">About us</a></li>
+				<li class="pure-menu-item"><a href="https://pool.hcr01.io" class="pure-menu-link">Pool</a></li>
+			</ul>
+		</div>
+	</div>
+
+	<div class="l-box-lrg pure-g">
+		<div class="l-box pure-u-1 pure-u-md-1-2 pure-u-lg-1-2">
+			<h2 class="content-head">Motivation</h2> Well, after the former installation of the "amateur" monitoring system (picture) at the OSZ Lise-Meitner-Schule, which colltects the current storage battery voltage and the wind-speed though an cup anemometer, we observe that our charge controller for the wind turbine could be faulty, because of the periodically voltage drops. Maybe the Raspberry PI2 draws to much power. After round about two month we decided to build an charge controller on our own, furthermore we found out that three photovoltaic cells are unused ajar the banister, the project-title was born:<br /> <big>The development of an hybrid charge controller</big><br /> The Project goals are:
+			<ul>
+				<li>develop an high power hybrid charge controller to run more than five Ubiquiti Routers for Freifunk</li>
+				<li>which uses the Maximum Power Point Perturb and Observe algorithm to make it high efficient</li>
+				<li>build and establish an open source monitoring system based on OpenWRT</li>
+				<li>construct an high efficient autonomous system for off-grid locations such as the Berlin Teufelsberg Freifunk location or for hospitals in small villages in developing country like cameroon.
+			</ul>
+		</div>
+		<div class="l-box pure-u-1 pure-u-md-1-2 pure-u-lg-1-2">
+			<br />
+			<br />
+			<figure>
+				<a href="static/img/old_monitoring_system.jpg"><img class="pure-img" alt="" src="static/img/old_monitoring_system_compressed.jpg" /></a>
+				<figcaption>Former monitoring system with an RPI2 and an MCP3008 ADC</figcaption>
+			</figure>
+		</div>
+	</div>
+</body>
+</html>
