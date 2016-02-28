@@ -13,3 +13,11 @@ body, html {
 .project-status {
 	color: #00ff00;
 }
+.mobile-nav-toggle {
+	display: none;
+}
+@media all and (max-width: 56em) {
+	.l-box-lrg {
+	    margin-top: 5em;
+	}
+}
