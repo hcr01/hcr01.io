@@ -4,7 +4,7 @@ body, html {
 	font-family: sans-serif;
 }
 .splash-container {
-	background-image: url("../img/bg.jpg");
+	background-image: url("../img/wind_t_s.jpg");
 	background-size: cover;
 }
 .pure-menu-horizontal {
@@ -13,3 +13,4 @@ body, html {
 .project-status {
 	color: #00ff00;
 }
+
